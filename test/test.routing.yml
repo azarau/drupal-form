@@ -1,0 +1,25 @@
+test.mdanontax:
+  path: '/mdanontaxform'
+  defaults:
+    _form:  '\Drupal\test\Form\MdaNonTaxForm'
+    _title: 'Mda Non Tax Input Form'
+  requirements:
+    _permission: 'access content'
+
+
+test.demandnotice:
+  path: '/demandnoticeform'
+  defaults:
+    _form:  '\Drupal\test\Form\DemandNoticeForm'
+    _title: 'Demand Notice Input Form'
+  requirements:
+    _permission: 'access content'
+  
+
+test.taxpayer:
+  path: '/taxpayerform'
+  defaults:
+    _form:  '\Drupal\test\Form\TaxpayerForm'
+    _title: ' Taxpayer Database Form'
+  requirements:
+    _permission: 'access content'

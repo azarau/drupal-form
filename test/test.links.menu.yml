@@ -1,0 +1,18 @@
+test.mdanontax:
+  title: Mda Non Tax Input Form
+  route_name: test.mdanontax
+  menu_name: 'main'
+  weight: 1
+
+test.demandnotice:
+  title: Demand Notice Input Form
+  route_name: test.demandnotice
+  menu_name: main
+  weight: 2
+
+
+test.taxpayer:
+  title: Taxpayer Database Form
+  route_name: test.taxpayer
+  menu_name: main
+  weight: 3
